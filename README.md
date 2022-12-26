@@ -1,25 +1,26 @@
-# api-quick-start
+# LAB - Class 29
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project: cookie stands
 
-## Customization Steps
+### Author: Mostafa Albelbeisi, Mohammed Alhanoti
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `CookieStandss` folder to the app name of your choice
-- Search through entire code base for `CookieStands`,`CookieStandss` and `CookieStandss` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update CookieStandsModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Run `collectstatic` if needed.
-- Optional: Update `api_tester.py`
+### Links and Resources
+
+- https://cookiestands.herokuapp.com/api/v1/CookieStands/
+- https://mostafa-albelbeisi.github.io/cookie-stand-api/
+
+### Setup
+
+#### `.env` requirements (where applicable)
+
+i.e.
+
+- `PORT` - 5432
+- `DATABASE_URL` - https://api.elephantsql.com/console/2e14dc9d-efe8-42c5-8e22-10f684409064/details
+
+#### How to initialize/run your application (where applicable)
+
+- e.g. `python manage.py`
+
+#### How to use your library (where applicable)
+- e.g. `python manage.py`
