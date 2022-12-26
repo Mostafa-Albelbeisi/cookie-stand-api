@@ -166,6 +166,7 @@ REST_FRAMEWORK = {
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(seconds=60 * 60),  # lasts for 60 minutes
 }
-CORS_TRUSTED_ORIGIN = tuple(env.list("ALLOWED_ORIGINS"))
 CORS_ORIGIN_WHITELIST = tuple(env.list("ALLOWED_ORIGINS"))
 CORS_ALLOW_ALL_ORIGINS = env.bool("ALLOW_ALL_ORIGINS")
+
+CORS_TRUSTED_ORIGIN = tuple(env.list("ALLOWED_ORIGINS"))
